@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o DOM</title>
+</head>
+<body>
+    <h1>Post do twitter</h1>
+
+    <article class="post">
+        <p><strong>Buel Soares</strong><span>@buel - 10 min</span></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quaerat quas? Facere architecto distinctio nemo laboriosam laborum similique fugiat harum vel dolore molestiae non, id, vitae numquam, esse modi itaque.</p>
+
+        <br>
+
+        <div class="comentarios">
+            <h3>comentarios:</h3>
+
+            <input name="novo-comentario" type="text" placeholder="Digite seu comentario">
+
+            <button onclick="adicionarComentario()">Adicionar comentario</button>
+
+            <br>
+
+            <div id="novos-comentarios"></div>
+        </div>    
+    </article>
+
+    <script src="index.js"></script>
+</body>
+</html>
