@@ -1,5 +1,5 @@
-const numero = ["65", "44", "12", "4"]
+const numeros = [65, 44, 12, 4]
 
-numero.forEach((numero) => {
-    console.log(numero * 10)
+numeros.forEach(item => {
+    console.log(item * 10)
 });

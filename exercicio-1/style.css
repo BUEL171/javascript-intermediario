@@ -1,13 +1,16 @@
-.quadrado{
+.quadrado {
 	height: 100px;
 	width: 100px;
 }
-.azul{
+
+.azul {
 	background-color: blue;
 }
-.vermelho{
+
+.vermelho {
 	background-color: red;
 }
-.amarelo{
+
+.amarelo {
 	background-color: yellow;
 }
