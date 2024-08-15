@@ -1,11 +1,10 @@
 const quadrado = document.querySelector(".quadrado")
 
-quadrado.addEventListener("click", () => {
-    const classeAzulExiste = quadrado.classList.contains("azul")
-
-    if (classeAzulExiste) {
+quadrado.addEventListener("click", function () {
+    const azulExiste = quadrado.classList.contains("azul")
+    if (azulExiste) {
         quadrado.classList.remove("azul")
-    }else {
+    } else {
         quadrado.classList.add("azul")
     }
 })
