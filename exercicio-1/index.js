@@ -2,14 +2,14 @@ const btnTrocarCor = document.getElementById("btn-trocar-cor")
 
 const btnVoltarCor = document.getElementById("btn-voltar-cor")
 
-const quadradoAzul = document.querySelector(".azul")
+const quadraAzul = document.querySelector(".azul")
 
 btnTrocarCor.addEventListener("click", function trocarCor() {
-    quadradoAzul.classList.remove("azul")
-    quadradoAzul.classList.add("amarelo")
+    quadraAzul.classList.remove("azul")
+    quadraAzul.classList.add("amarelo")
 })
 
-btnVoltarCor.addEventListener("click", function voltarCor() {
-    quadradoAzul.classList.remove("amarelo")
-    quadradoAzul.classList.add("azul")
+btnVoltarCor.addEventListener("click", function btnVoltarCor() {
+    quadraAzul.classList.remove("amarelo")
+    quadraAzul.classList.add("azul")
 })
