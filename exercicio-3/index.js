@@ -1,9 +1,9 @@
 const quadrado = document.querySelector(".quadrado")
 
 quadrado.addEventListener("click", function () {
-    const corAzulExiste = quadrado.classList.contains("azul")
+    const azulExiste = quadrado.classList.contains("azul")
 
-    if (corAzulExiste) {
+    if (azulExiste) {
         quadrado.classList.remove("azul")
     } else {
         quadrado.classList.add("azul")
