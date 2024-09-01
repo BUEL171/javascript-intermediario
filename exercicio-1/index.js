@@ -12,4 +12,6 @@ btnTorcarCor.addEventListener("click", function () {
 btnVoltarCor.addEventListener("click", function () {
     quadradoAzul.classList.remove("amarelo")
     quadradoAzul.classList.add("azul")
-})
+}) 
+
+// oie
