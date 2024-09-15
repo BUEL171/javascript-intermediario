@@ -4,12 +4,12 @@ const btnVoltarCor = document.getElementById("btn-voltar-cor")
 
 const quadradoAzul = document.querySelector(".azul")
 
-btnTrocarCor.addEventListener("click", function () {
+btnTrocarCor.addEventListener("click", function() {
     quadradoAzul.classList.remove("azul")
     quadradoAzul.classList.add("amarelo")
 })
 
-btnVoltarCor.addEventListener("click", function () {
+btnVoltarCor.addEventListener("click", function() {
     quadradoAzul.classList.remove("amarelo")
     quadradoAzul.classList.add("azul")
 })
