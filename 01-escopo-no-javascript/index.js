@@ -36,4 +36,4 @@ falar()
 //console.log(mensagem)
 // console.log(falarOutraCoisa)
 
-console.log(numero)
+console.log(numero )
