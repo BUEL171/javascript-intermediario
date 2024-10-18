@@ -26,4 +26,4 @@ let cliente = {
     }
 }
 
-console.log(cliente.ultimoPedido.jogo[0].nome) 
+console.log(cliente.ultimoPedido.jogo[0].nome)
