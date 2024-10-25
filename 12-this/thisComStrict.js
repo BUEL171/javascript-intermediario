@@ -38,6 +38,6 @@ comida.cozinhar = function(temperaturaDeCozimento){
 
 console.log(comida)
 
-comida.cozinhar(100)
+comida.cozinhar(100) 
 
 console.log(comida);
