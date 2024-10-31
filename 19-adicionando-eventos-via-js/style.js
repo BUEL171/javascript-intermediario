@@ -3,4 +3,3 @@ document
 addEventListener('change', function (event) {
     console.log(event.target.value)
 });
-
