@@ -5,6 +5,6 @@ let tenis = {
     emEstoque: true
 }
 
-tenis.valor = 299 
+tenis.valor = 299
 
 console.log(tenis)
