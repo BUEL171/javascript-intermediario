@@ -14,4 +14,4 @@ let frutas = ['banana', 'maca', 'laranja', 'uva']
 
 let removeEAdicionaFrutas = frutas.splice(1, 2, 'goiaba', 'abacaxi', 'pera')
 
-console.log(frutas) 
+console.log(frutas)
